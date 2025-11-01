@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\player.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\BgLayer.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\enemy.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\player.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\BgLayer.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\enemy.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\HelloWorld_0.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\SHTIL.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\ball.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\cacti-small1.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\cloud.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\dino1.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\ground.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\kirpitch.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\ptera.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\khora\cocos_projects\NewLevel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{2E3742F8-2ABE-3D04-AA0C-D6FE490D5936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{5249F07E-2F18-3B74-BB21-F261FA78996B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{C858FDF5-0CD1-3DE6-BF6C-FC11040D1321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E3D15F7D-480A-30EC-A0C8-1FD947512F5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{759BAEEC-E266-3173-8892-1BB1B98EBB7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{E5664EEA-6209-3790-A7EE-A3E7BC90DA41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

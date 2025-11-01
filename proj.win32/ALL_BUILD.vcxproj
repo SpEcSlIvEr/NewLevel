@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53CED574-8259-3F33-A242-DE1BCC55C8CE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\khora\cocos_projects\NewLevel\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/khora/cocos_projects/NewLevel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/khora/cocos_projects/NewLevel -BC:/Users/khora/cocos_projects/NewLevel/proj.win32 --check-stamp-file C:/Users/khora/cocos_projects/NewLevel/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeCCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeCXXCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeRCCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/khora/cocos_projects/NewLevel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/khora/cocos_projects/NewLevel -BC:/Users/khora/cocos_projects/NewLevel/proj.win32 --check-stamp-file C:/Users/khora/cocos_projects/NewLevel/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeCCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeCXXCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeRCCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/khora/cocos_projects/NewLevel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/khora/cocos_projects/NewLevel -BC:/Users/khora/cocos_projects/NewLevel/proj.win32 --check-stamp-file C:/Users/khora/cocos_projects/NewLevel/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeCCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeCXXCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeRCCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/khora/cocos_projects/NewLevel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/khora/cocos_projects/NewLevel -BC:/Users/khora/cocos_projects/NewLevel/proj.win32 --check-stamp-file C:/Users/khora/cocos_projects/NewLevel/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\khora\cocos_projects\NewLevel\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeCCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeCXXCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeRCCompiler.cmake;C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\4.1.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\khora\cocos_projects\NewLevel\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{7254933E-7655-38AC-AD4D-5D4354A64C4D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\NewLevel.vcxproj">
+      <Project>{230F41B5-CCC1-3DCA-9AFA-A148F286AB77}</Project>
+      <Name>NewLevel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\SYNC_RESOURCE-NewLevel.vcxproj">
+      <Project>{42DC456C-F1E4-3CB9-9842-0DD35BB318E3}</Project>
+      <Name>SYNC_RESOURCE-NewLevel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{5D8CE20E-095E-371C-AFD6-E560DDC4FB9E}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{ADE5C03A-819C-36AD-9D6A-D4DBC5B57CF5}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{6191C6D4-C264-34DF-8F3D-482722BDCCA1}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{00995ED0-C667-38B5-A5A4-3516644483AF}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{98FBBDB9-F52C-313B-915F-0CFFBFD3AEC2}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{93C108BE-3F92-3191-AF4E-B5A2291FAC61}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{15070474-49F4-3F3A-9DEF-91B5C3B39289}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{85ECB0E2-8122-3685-A1C7-2B34FDD55BEA}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{6C205B36-F200-3917-9D61-0C4AC1FA3144}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{20DB5FEC-7414-3CD7-BA6C-5AD1857D57DA}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{8D2F47B4-EABB-31A9-8A6F-44A0EB143FB3}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\engine\external\external.vcxproj">
+      <Project>{6BFAADA7-6D65-374B-B7DC-8DE0ABC564AC}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
