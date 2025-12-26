@@ -61,6 +61,11 @@ list(APPEND GAME_SOURCE
      Classes/player.cpp
      Classes/BgLayer.cpp  
      Classes/enemy.cpp
+     Classes/fon.cpp
+     Classes/dicoration.cpp
+     Classes/TheEnd.cpp
+     Classes/TheBegin.cpp
+     Classes/sloymenu.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
@@ -68,6 +73,11 @@ list(APPEND GAME_HEADER
      Classes/player.h
      Classes/BgLayer.h
      Classes/enemy.h
+     Classes/fon.h
+     Classes/dicoration.h
+     Classes/TheEnd.h
+     Classes/TheBegin.h
+     Classes/sloymenu.h
      )
 
 if(ANDROID)

@@ -853,6 +853,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\player.h" />
     <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\BgLayer.h" />
     <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\enemy.h" />
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\fon.h" />
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\dicoration.h" />
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\TheEnd.h" />
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\TheBegin.h" />
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\sloymenu.h" />
     <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\main.h" />
     <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\resource.h" />
     <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\AppDelegate.cpp" />
@@ -860,6 +865,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\player.cpp" />
     <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\BgLayer.cpp" />
     <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\enemy.cpp" />
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\fon.cpp" />
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\dicoration.cpp" />
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\TheEnd.cpp" />
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\TheBegin.cpp" />
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\sloymenu.cpp" />
     <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\main.cpp" />
     <ResourceCompile Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\game.rc" />
     <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Resources\CloseNormal.png" />

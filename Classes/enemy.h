@@ -17,7 +17,10 @@ private:
 public:
 	enemy(Layer* ptero, std::string name); 
 	void setPosition(int x, int y);
+	void setPositionx(int x); 
 	void setDynamic(bool proverka);
+	int getPosx();
+	void setHitbox();
 	~enemy();
 
 	/*CREATE_FUNC(enemy);*/

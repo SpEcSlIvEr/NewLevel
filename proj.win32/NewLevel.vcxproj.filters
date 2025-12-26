@@ -16,6 +16,21 @@
     <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\enemy.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\fon.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\dicoration.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\TheEnd.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\TheBegin.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\Classes\sloymenu.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\main.cpp">
       <Filter>Source Files\proj.win32</Filter>
     </ClCompile>
@@ -37,6 +52,21 @@
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\enemy.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\fon.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\dicoration.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\TheEnd.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\TheBegin.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\Classes\sloymenu.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\khora\cocos_projects\NewLevel\proj.win32\main.h">

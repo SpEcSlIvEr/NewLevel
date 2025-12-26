@@ -108,7 +108,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
     //Director::getInstance()->setClearColor(Color4F(0.53f, 0.81f, 0.92f, 1.0f));
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    auto scene = TheBegin::createScene();
 
     // run
     director->runWithScene(scene);
